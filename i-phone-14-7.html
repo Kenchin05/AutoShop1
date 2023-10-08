@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps Example</title>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="location-details">
+        <h2>Location Details</h2>
+        <p id="location-name"></p>
+        <p id="location-address"></p>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbJ8b_lffkIxMCIXFaa1SMYgykfFtyY2I&callback=initMap" async defer></script>
+    <script>
+        // Replace 'YOUR_API_KEY' with your actual Google Maps API key
+
+        function initMap() {
+            // Specify the coordinates of the location
+            var location = { lat: 30.733590, lng: 76.695340 }; // Replace with your desired coordinates
+
+            // Create a map centered around the specified location
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: location,
+                zoom: 15
+            });
+
+            // Create a marker for the specified location
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                title: 'Selected Location'
+            });
+
+            // Display details about the location
+            document.getElementById('location-name').innerText = 'Selected Location';
+            document.getElementById('location-address').innerText = 'Address: H&M, VR Mall'; // Replace with actual address
+        }
+    </script>
+</body>
+</html>

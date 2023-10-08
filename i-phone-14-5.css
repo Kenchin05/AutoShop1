@@ -1,0 +1,121 @@
+.image-25-icon4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 390px;
+  height: 527px;
+  object-fit: cover;
+}
+.formally-chic1 {
+  position: absolute;
+  top: 541px;
+  left: 20px;
+  letter-spacing: 0.05em;
+}
+.xs-s1 {
+  position: absolute;
+  top: 657px;
+  left: 20px;
+  letter-spacing: 0.1em;
+}
+.rs-19903 {
+  position: absolute;
+  top: 541px;
+  left: 279px;
+  letter-spacing: 0.05em;
+  color: var(--color-dimgray-200);
+}
+.floor-1 {
+  margin: 0;
+}
+.floor-1-counter-container {
+  position: absolute;
+  top: 716px;
+  left: 20px;
+  font-size: var(--font-size-mid);
+  letter-spacing: 0.05em;
+  color: var(--color-dimgray-200);
+  text-align: left;
+}
+.check-size-chart1 {
+  position: absolute;
+  top: 657px;
+  left: 227px;
+  font-size: var(--font-size-mid);
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  color: var(--color-dimgray-200);
+}
+.span1 {
+  color: var(--color-dimgray-200);
+}
+.b1 {
+  position: absolute;
+  top: 439px;
+  left: 143px;
+  font-size: var(--font-size-51xl);
+  letter-spacing: 0.05em;
+  color: var(--color-white);
+}
+.this-stunning-formal1 {
+  position: absolute;
+  top: 583px;
+  left: 20px;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.05em;
+  display: flex;
+  color: var(--color-dimgray-200);
+  text-align: justify;
+  align-items: center;
+  width: 352px;
+}
+.image-25-icon5 {
+  position: absolute;
+  top: 17px;
+  left: 315px;
+  width: 57px;
+  height: 55px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.image-30-icon2 {
+  position: absolute;
+  top: 786px;
+  left: 0px;
+  width: 390px;
+  height: 58px;
+  object-fit: cover;
+}
+.add-to-cart2 {
+  position: absolute;
+  top: 800px;
+  left: 112px;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.05em;
+}
+.add-to-cart3 {
+  position: absolute;
+  top: 800px;
+  left: 112px;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.store-coordinates1 {
+  position: absolute;
+  top: 695px;
+  left: 20px;
+  font-size: var(--font-size-mid);
+  letter-spacing: 0.05em;
+}
+.iphone-14-5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}

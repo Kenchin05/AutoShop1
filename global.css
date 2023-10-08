@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-mea-culpa: "Mea Culpa";
+  --font-inria-serif: "Inria Serif";
+  --font-inter: Inter;
+  --font-krona-one: "Krona One";
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-21xl: 40px;
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+  --font-size-6xl: 25px;
+  --font-size-smi: 13px;
+  --font-size-lg: 18px;
+  --font-size-mid: 17px;
+  --font-size-51xl: 70px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+  --color-dimgray-100: #717171;
+  --color-dimgray-200: #626262;
+  --color-snow: #fff5f5;
+  --color-gray: rgba(0, 0, 0, 0.5);
+
+  /* border radiuses */
+  --br-7xs: 6px;
+}

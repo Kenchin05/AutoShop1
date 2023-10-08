@@ -1,0 +1,54 @@
+.image-38-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 390px;
+  height: 844px;
+  object-fit: cover;
+}
+.image-39-icon1 {
+  position: absolute;
+  top: 695px;
+  left: 11px;
+  width: 205.5px;
+  height: 34px;
+  object-fit: cover;
+}
+.valentino1 {
+  position: absolute;
+  top: 698px;
+  left: 25px;
+  letter-spacing: 0.05em;
+}
+.image-40-icon1 {
+  position: absolute;
+  top: 352px;
+  left: 118px;
+  width: 45px;
+  height: 13px;
+  object-fit: cover;
+}
+.valentino2 {
+  position: absolute;
+  top: 354px;
+  left: 103px;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  display: flex;
+  color: #c56c6b;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 10px;
+}
+.iphone-14-7 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

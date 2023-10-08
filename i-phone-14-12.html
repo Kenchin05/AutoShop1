@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./i-phone-14-12.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:ital,wght@0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mea Culpa:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="iphone-14-12">
+      <img class="image-25-icon" alt="" src="./public/image-25@2x.png" />
+
+      <b class="dresses-denim-sports-container" id="dRESSESDENIMSPORTS">
+        <p class="dresses">DRESSES</p>
+        <p class="dresses">DENIM</p>
+        <p class="dresses">SPORTS</p>
+        <p class="skirts">SKIRTS</p>
+      </b>
+      <b
+        class="t-shirts-accessories-swimsuit-container"
+        id="tSHIRTSACCESSORIESSWIMSUIT"
+      >
+        <p class="dresses">T-SHIRTS</p>
+        <p class="dresses">ACCESSORIES</p>
+        <p class="dresses">SWIMSUIT</p>
+        <p class="skirts">KNITWEAR</p>
+      </b>
+      <b class="search-by-category">Search by category</b>
+      <b class="find-your-groove">Find your groove</b>
+      <div class="button" id="buttonContainer">
+        <div class="button-child"></div>
+        <b class="prepare-an-outfit">PREPARE AN OUTFIT</b>
+      </div>
+    </div>
+
+    <script>
+      var dRESSESDENIMSPORTS = document.getElementById("dRESSESDENIMSPORTS");
+      if (dRESSESDENIMSPORTS) {
+        dRESSESDENIMSPORTS.addEventListener("click", function (e) {
+          window.location.href = "./i-phone-14-4.html";
+        });
+      }
+
+      var tSHIRTSACCESSORIESSWIMSUIT = document.getElementById(
+        "tSHIRTSACCESSORIESSWIMSUIT",
+      );
+      if (tSHIRTSACCESSORIESSWIMSUIT) {
+        tSHIRTSACCESSORIESSWIMSUIT.addEventListener("click", function (e) {
+          window.location.href = "./i-phone-14-8.html";
+        });
+      }
+
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./i-phone-14-13.html";
+        });
+      }
+    </script>
+  </body>
+</html>

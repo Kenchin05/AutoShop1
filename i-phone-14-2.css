@@ -1,0 +1,110 @@
+.image-3-icon1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 390px;
+  height: 844px;
+  object-fit: cover;
+}
+.component-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+}
+.email-address {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 17px;
+}
+.component {
+  position: absolute;
+  width: calc(100% - 56px);
+  top: 286px;
+  right: 28px;
+  left: 28px;
+  height: 52px;
+  mix-blend-mode: color-burn;
+  color: var(--color-gray);
+  font-family: var(--font-roboto);
+}
+.component1 {
+  position: absolute;
+  width: calc(100% - 56px);
+  top: 355px;
+  right: 28px;
+  left: 28px;
+  height: 52px;
+  mix-blend-mode: color-burn;
+  color: var(--color-gray);
+  font-family: var(--font-roboto);
+}
+.sign-up {
+  position: absolute;
+  top: 222px;
+  left: 28px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  width: 214px;
+  height: 64px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login {
+  text-decoration: underline;
+}
+.already-have-an-container {
+  position: absolute;
+  top: 478px;
+  left: 28px;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.button-inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-black);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+}
+.get-started {
+  position: absolute;
+  top: calc(50% - 7.5px);
+  left: calc(50% - 44.71px);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.button2 {
+  position: absolute;
+  width: calc(100% - 56px);
+  top: 422px;
+  right: 28px;
+  left: 28px;
+  height: 41px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-smi);
+}
+.iphone-14-2 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inria-serif);
+}

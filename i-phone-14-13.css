@@ -1,0 +1,121 @@
+.image-17-icon {
+  position: absolute;
+  top: 105px;
+  left: 20px;
+  width: 346px;
+  height: 316px;
+  object-fit: cover;
+  opacity: 0.2;
+}
+.image-35-icon {
+  position: absolute;
+  top: 30px;
+  left: 352px;
+  width: 27px;
+  height: 25px;
+  object-fit: cover;
+  mix-blend-mode: hard-light;
+}
+.image-36-icon {
+  position: absolute;
+  top: 29px;
+  left: 272px;
+  width: 29px;
+  height: 24px;
+  object-fit: cover;
+  mix-blend-mode: hard-light;
+}
+.image-37-icon {
+  position: absolute;
+  top: 30px;
+  left: 318px;
+  width: 21px;
+  height: 23px;
+  object-fit: cover;
+  mix-blend-mode: hard-light;
+}
+.image-41-icon {
+  position: absolute;
+  top: 30px;
+  left: 318px;
+  width: 21px;
+  height: 23px;
+  object-fit: cover;
+  mix-blend-mode: hard-light;
+  cursor: pointer;
+}
+.whats-your-situation {
+  position: absolute;
+  top: 29px;
+  left: 16px;
+  display: inline-block;
+  text-align: left;
+  width: 230px;
+  height: 58px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image-43-icon {
+  position: absolute;
+  top: 131px;
+  left: 55px;
+  width: 133px;
+  height: 124px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.present {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.store {
+  margin: 0;
+}
+.present-at-the-container {
+  position: absolute;
+  top: 131px;
+  left: 226px;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.05em;
+}
+.find-your-category {
+  position: absolute;
+  top: 285px;
+  left: 99px;
+  letter-spacing: 0.05em;
+}
+.match-your-apparel {
+  position: absolute;
+  top: 349px;
+  left: 96px;
+  letter-spacing: 0.05em;
+}
+.image-44-icon {
+  position: absolute;
+  top: 274px;
+  left: 66px;
+  width: 259px;
+  height: 45px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.image-45-icon {
+  position: absolute;
+  top: 338px;
+  left: 66px;
+  width: 259px;
+  height: 45px;
+  object-fit: cover;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.iphone-14-13 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}
